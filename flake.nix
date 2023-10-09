@@ -1,7 +1,7 @@
 {
   description = "Flakes for mobile-nixos";
 
-  inputs.nixpkgs.url = "nixpkgs/nixos-unstable";
+  inputs.nixpkgs.url = "github:nixos/nixpkgs?rev=684c17c429c42515bafb3ad775d2a710947f3d67";
   inputs.flake-utils.url = "github:numtide/flake-utils";
 
   outputs = { self, nixpkgs, flake-utils }: let
